@@ -1,0 +1,87 @@
+.aligner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-family: Montserrat;
+    color: white;
+}
+
+.bottomtext {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-family: Montserrat;
+    color: white;
+    font-size: 12px
+}
+
+.socialsdiv {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    height: 10vh;
+}
+
+.mastodonbutton  {
+    border: 2px solid purple;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 15px;
+    color: white;
+    font-family: Montserrat;
+}
+
+.githubbutton {
+    border: 2px solid black;
+    display: inline-block;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 15px;
+    color: white;
+    font-family: Montserrat;
+    margin-left: 10px
+}
+
+.otherpages {
+    display: flex;
+    align-items: flex-end;
+    justify-content: cetner;
+    height:5vh
+}
+
+
+
+html {
+    background: linear-gradient(25deg, #66ff99, #006fff);
+    background-size: 600% 600%;
+    height: 100vh;
+    -webkit-animation: PAnimation 30s ease infinite;
+    -moz-animation: PAnimation 30s ease infinite;
+    animation: PAnimation 30s ease infinite;
+}
+
+@-webkit-keyframes PAnimation {
+    0%{background-position:48% 0%}
+    50%{background-position:53% 100%}
+    100%{background-position:48% 0%}
+}
+@-moz-keyframes PAnimation {
+    0%{background-position:48% 0%}
+    50%{background-position:53% 100%}
+    100%{background-position:48% 0%}
+}
+@keyframes PAnimation {
+    0%{background-position:48% 0%}
+    50%{background-position:53% 100%}
+    100%{background-position:48% 0%}
+}
