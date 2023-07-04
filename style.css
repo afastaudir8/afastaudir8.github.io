@@ -91,10 +91,7 @@ html {
 }
 
 .background {
-    background-image:     linear-gradient(
-        rgba(0, 0, 0, 0.2), 
-        rgba(0, 0, 0, 0.7)
-      ), url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.osxdaily.com%2Fwp-content%2Fuploads%2F2010%2F02%2FSnow-Leopard-Server-wallpaper.jpeg&f=1&nofb=1&ipt=1973116180a8974e8fcbad5eabb178a44ca1440e2d593c80d84a277816270ab0&ipo=images");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.osxdaily.com%2Fwp-content%2Fuploads%2F2010%2F02%2FSnow-Leopard-Server-wallpaper.jpeg&f=1&nofb=1&ipt=1973116180a8974e8fcbad5eabb178a44ca1440e2d593c80d84a277816270ab0&ipo=images");
     background-attachment: fixed;
     background-repeat:no-repeat;
     background-size: cover
