@@ -48,6 +48,31 @@ nav a:hover {
     width:100%;
 }
 
+.aboutme {
+    background-image: url(./assets/texture.jpg);
+    padding: 1rem;
+    border-radius:10px;
+    border: rgba(0 0 0 0.8) 2px solid;
+    box-shadow: 0 0 3px 1px;
+
+}
+
+.aboutme p {
+    color:white;
+    margin:0;
+}
+
+.aboutme h1 {
+    color:white;
+    font-style:italic;
+    margin: 0
+}
+.aboutme h2 {
+    color:white;
+    /* font-style:italic; */
+    margin: 0
+}
+
 @media (width <= 736) {
     nav {
         display:flex;
