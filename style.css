@@ -20,9 +20,10 @@ nav {
     position:fixed;
     z-index:100;
     left:50%;
-    top:2%;
+    top:10px;
     margin-top:0;
-    transform:translateX(-50%)
+    transform:translateX(-50%); 
+    gap: 5px;  
 }
 
 nav a {
@@ -54,7 +55,9 @@ nav a:hover {
     border-radius:10px;
     border: rgba(0 0 0 0.8) 2px solid;
     box-shadow: 0 0 3px 1px;
-
+    margin-top:10vh;
+    height:75vh;
+    overflow-y:auto
 }
 
 .aboutme p {
@@ -80,7 +83,6 @@ nav a:hover {
 
 .aboutme a {
     color: rgb(225, 222, 255)
-
 }
 
 @media (width <= 736) {
