@@ -1,1 +1,15 @@
 
+
+nav {
+    display:flex;
+    width:fit-content;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    width:fit-content;
+    
+}
+
+nav a {
+    padding: 10px;
+}
