@@ -6,10 +6,25 @@ nav {
     justify-content: center;
     align-items: center;
     margin: 1rem auto;
-    width:fit-content;
-    
+    background-image:url(./assets/texture.jpg);
+    background-size:cover;
+    border-radius: 10px;
+    padding:0.5rem;
+    filter:brightness(1.5);
+    box-shadow: 0 0 5px 2px;
 }
 
 nav a {
     padding: 10px;
+    text-decoration: none;
+    color:white;
+}
+
+nav a:hover {
+    /* transition: 0.5s; */
+    background-image: radial-gradient(white 25%, rgba(0, 0, 0, 0) 70%);
+    border-radius:15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:black;
 }
