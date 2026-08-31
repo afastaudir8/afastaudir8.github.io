@@ -1,4 +1,8 @@
-
+html {
+    background-image:url(assets/paper.jpg);
+    height:100%;
+    overscroll-behavior:none;
+}
 
 nav {
     display:flex;
@@ -11,7 +15,12 @@ nav {
     border-radius: 10px;
     padding:0.5rem;
     filter:brightness(1.5);
-    box-shadow: 0 0 5px 2px;
+    box-shadow: 0 0 3px 1px;
+    position:fixed;
+    z-index:100;
+    left:50%;
+    top:1%;
+    transform:translateX(-50%)
 }
 
 nav a {
