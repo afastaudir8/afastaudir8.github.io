@@ -72,6 +72,16 @@ nav a:hover {
     /* font-style:italic; */
     margin: 0
 }
+.aboutme h3 {
+    color:white;
+    font-style:italic;
+    margin: 0
+}
+
+.aboutme a {
+    color: rgb(225, 222, 255)
+
+}
 
 @media (width <= 736) {
     nav {
