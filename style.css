@@ -78,14 +78,26 @@ nav a:hover {
 .aboutme h3 {
     color:white;
     font-style:italic;
-    margin: 0
+    margin: 0;
 }
 
 .aboutme a {
-    color: rgb(225, 222, 255)
+    color: rgb(225, 222, 255);
 }
 
-@media (width <= 736) {
+.footer {
+    width:100%;
+    background-image:url(assets/texture.jpg);
+    margin:0;
+    bottom:0;
+    left:0;
+}
+
+.footer p {
+    color:white
+}
+
+@media (width <= 1080px) {
     nav {
         display:flex;
         width:100%;
@@ -118,5 +130,16 @@ nav a:hover {
         /* flex: 1 1 0; */
         width:50px;
         text-align: center;
+    }
+
+    .aboutme {
+        background-image: url(./assets/texture.jpg);
+        padding: 1rem;
+        border-radius:10px;
+        border: rgba(0 0 0 0.8) 2px solid;
+        box-shadow: 0 0 3px 1px;
+        margin-top:5rem;
+        height:75vh;
+        overflow-y:auto
     }
 }
