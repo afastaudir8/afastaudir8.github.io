@@ -1,18 +1,1 @@
-html,body {
-    overflow:hidden;
-    margin:0;
-    padding:0
-}
 
-.menubar {
-    display:flex;
-    flex-direction: row;
-    width:100%;
-
-}
-
-.menubar p {
-    border-right: 10px;
-    padding-right: 10px;
-    padding-top: 0;
-}
